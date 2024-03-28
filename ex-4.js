@@ -27,12 +27,13 @@ console.log (employees)
 
 // IF THE ORDER IS james, alex, alicia and kody INSTEAD, USE THE CODE BELOW
 
+// employees.push ({ name: "Alicia",
+//                   age: 29,
+//                   hobbies: ["shopping", "Reading novels"]
+//                 }) 
+
 // employees.push ({ name: "Kody",
 //                   age: 19,
 //                   hobbies: ["Computer games", "wakeboard"]
 //                 })
 
-// employees.push ({ name: "Alicia",
-//                   age: 29,
-//                   hobbies: ["shopping", "Reading novels"]
-//                 }) 

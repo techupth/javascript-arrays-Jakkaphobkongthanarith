@@ -43,12 +43,13 @@ let orders = [
 
 // Start coding here
 let isArray = Array.isArray(orders);
-let creditCardTypeOfBlindermann = orders[2]["customerName"];
+let creditCardTypeOfBlindermann = orders[2]["creditCardType"];
 let productQuantityOfJoannet = orders[3]["productQuantity"];
 let totalPurchaseOfDary = orders[1]["productPrice"] * orders[1]["productQuantity"];
 
 orders[2]["creditCardType"] = "visa"
-delete orders[0]
+// delete orders[0]
+orders.unshift()
 
 console.log(orders)
 

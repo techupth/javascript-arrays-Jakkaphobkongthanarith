@@ -9,7 +9,7 @@ let tenthColor;
 blueColor = colors[2]
 fourthColor = colors[3]
 fifthColor = colors[4]
-tenthColor = colors[10]
+tenthColor = colors[9]
 console.log(colors)
 console.log(blueColor)
 console.log(fourthColor)
